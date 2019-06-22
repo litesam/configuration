@@ -1,0 +1,41 @@
+{
+  "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#5c71f3",
+      "titleBar.activeForeground": "#ffffff"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "files.eol": "\n",
+  "explorer.confirmDelete": false,
+  
+  "window.zoomLevel": 1,
+  "editor.fontFamily": "'Monaco', 'Menlo Regular', Consolas",
+  "terminal.integrated.shell.windows": "cmd.exe",
+
+  "terminal.integrated.shellArgs.windows": [
+      "/k", "C:\\Users\\light\\Downloads\\Programs\\cmder\\vendor\\init.bat"
+  ],
+  "terminal.integrated.rendererType": "dom",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+      "editor.formatOnSave": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontSize": 20,
+  "workbench.colorTheme": "Solarized Light",
+  "editor.wordWrap": "on",
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.suggest.names": false,
+  "typescript.suggest.autoImports": false,
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggest.paths": false,
+  "typescript.suggestionActions.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestionsDelay": 100000000000,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "breadcrumbs.symbolSortOrder": "name",
+  "terminal.explorerKind": "external",
+  "editor.tabSize": 2,
+  "window.menuBarVisibility": "default",
+  "liveshare.featureSet": "insiders"
+}
