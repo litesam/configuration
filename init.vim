@@ -35,19 +35,13 @@ nnoremap <C-S-b> <C-b> <Right>
 
 
 
-call plug#begin('~/.loca/share/nvim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'tpope/vim-commentary'
-
 Plug 'preservim/nerdtree'
-
 Plug 'tpope/vim-fugitive'
-
 Plug 'vim-airline/vim-airline'
-
 Plug 'morhetz/gruvbox'
-
-Plug 'jonathanfilip/vim-lucius'
 
 call plug#end()
 
@@ -55,13 +49,6 @@ call plug#end()
 
 " colorscheme gruvbox
 " set background=dark
-" colorscheme zellner
-colorscheme lucius
-" LuciusDarkHighContrast
-LuciusBlack
-" GrbLuciusDarkHighContrast
-" GrbLuciusDarkHighContrast
-
 
 " Enable filetype plugins
 filetype plugin on
