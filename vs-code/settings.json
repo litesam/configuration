@@ -1,20 +1,45 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "window.zoomLevel": 0,
+    "workbench.startupEditor": "none",
+    "editor.fontFamily": "JetBrains Mono",
+    "telemetry.telemetryLevel": "off",
     "extensions.ignoreRecommendations": true,
-    "workbench.activityBar.visible": false,
-    "editor.tabSize": 2,
-    "editor.fontSize": 16,
+    "redhat.telemetry.enabled": false,
+    "vim.useSystemClipboard": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.visualModeKeyBindings": [
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<C-v>"],
+            "after": ["\"", "+", "p"]
+        },
+        {
+            "before": ["u"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo", "args": []
+                }
+            ]
+        },
+        {
+            "before": ["<C-r>"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo", "args": []
+                }
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "editor.bracketPairColorization.enabled": false,
+    "workbench.colorTheme": "Nord",
     "editor.minimap.enabled": false,
-    "workbench.statusBar.visible": true,
-    "editor.renderWhitespace": "none",
-    "editor.fontFamily": "Hack, Menlo, 'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.quickSuggestionsDelay": 1000000000,
-    "workbench.colorTheme": "Dracula",
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\sam-12662\\scoop\\apps\\neovim\\0.7.2\\bin\\nvim.exe",
 }
